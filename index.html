@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  
+    <title>meu site!</title>
+    <link rel="stylesheet" href="/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+    
+    <nav class="navbar col-12 position-fixed navbar-expand-lg navbar-dark bg-dark" style="z-index: 999;">
+        <div class="container-fluid col-11 m-auto">
+          <a class="navbar-brand" href="#"></a>
+          
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicío</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Séries</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Filmes
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Quem Somos</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    
+
+      <!---Slideshow-->
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/5.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/8.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/the Batman capa logo.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+<br>
+<br>
+<br>
+<br>
+
+
+<!--Slider-->
+
+
+<div class="movie-list-container">
+  <h1 class="movie-list-title" style="color: white;">Recomendados</h1>
+  <div class="movie-list-wrapper">
+      <div class="movie-list">
+          <div class="movie-list-item">
+              <img class="movie-list-item-img" src="img/3.jpg" alt="">
+              <span class="movie-list-item-title"></span>
+              <p class="movie-list-item-desc"></p>
+              <button class="movie-list-item-button">ver</button>
+          </div>
+          <div class="movie-list-item">
+              <img class="movie-list-item-img" src="img/4.jpg" alt="">
+              <span class="movie-list-item-title"></span>
+              <p class="movie-list-item-desc"></p>
+              <button class="movie-list-item-button">ver</button>
+          </div>
+          <div class="movie-list-item">
+              <img class="movie-list-item-img" src="img/5.jpg" alt="">
+              <span class="movie-list-item-title"></span>
+              <p class="movie-list-item-desc"></p>
+              <button class="movie-list-item-button">ver</button>
+          </div>
+          <div class="movie-list-item">
+              <img class="movie-list-item-img" src="img/6.jpg" alt="">
+              <span class="movie-list-item-title"></span>
+              <p class="movie-list-item-desc"></p>
+              <button class="movie-list-item-button">ver</button>
+          </div>
+          <div class="movie-list-item">
+              <img class="movie-list-item-img" src="img/7.jpg" alt="">
+              <span class="movie-list-item-title"></span>
+              <p class="movie-list-item-desc"></p>
+              <button class="movie-list-item-button">ver</button>
+          </div>
+          <div class="movie-list-item">
+              <img class="movie-list-item-img" src="img/8.jpg" alt="">
+              <span class="movie-list-item-title"></span>
+              <p class="movie-list-item-desc"></p>
+              <button class="movie-list-item-button">ver</button>
+          </div>
+          <div class="movie-list-item">
+              <img class="movie-list-item-img" src="img/9.jpg" alt="">
+              <span class="movie-list-item-title"></span>
+              <p class="movie-list-item-desc"></p>
+              <button class="movie-list-item-button">ver</button>
+          </div>
+      </div>
+      <i class="fas fa-chevron-right arrow"></i>
+  </div>
+</div>
+
+<div class="movie-list-container">
+  <h1 class="movie-list-title" style="color: white;">Sua lista</h1>
+  <div class="movie-list-wrapper">
+      <div class="movie-list">
+          <div class="movie-list-item">
+              <img class="movie-list-item-img" src="img/3.jpg" alt="">
+              <span class="movie-list-item-title"></span>
+              <p class="movie-list-item-desc"></p>
+              <button class="movie-list-item-button">ver</button>
+          </div>
+          <div class="movie-list-item">
+              <img class="movie-list-item-img" src="img/4.jpg" alt="">
+              <span class="movie-list-item-title"></span>
+              <p class="movie-list-item-desc"></p>
+              <button class="movie-list-item-button">ver</button>
+          </div>
+          <div class="movie-list-item">
+              <img class="movie-list-item-img" src="img/5.jpg" alt="">
+              <span class="movie-list-item-title"></span>
+              <p class="movie-list-item-desc"></p>
+              <button class="movie-list-item-button">ver</button>
+          </div>
+          <div class="movie-list-item">
+              <img class="movie-list-item-img" src="img/6.jpg" alt="">
+              <span class="movie-list-item-title"></span>
+              <p class="movie-list-item-desc"></p>
+              <button class="movie-list-item-button">ver</button>
+          </div>
+          <div class="movie-list-item">
+              <img class="movie-list-item-img" src="img/7.jpg" alt="">
+              <span class="movie-list-item-title"></span>
+              <p class="movie-list-item-desc"></p>
+              <button class="movie-list-item-button">ver</button>
+          </div>
+          <div class="movie-list-item">
+              <img class="movie-list-item-img" src="img/8.jpg" alt="">
+              <span class="movie-list-item-title"></span>
+              <p class="movie-list-item-desc"></p>
+              <button class="movie-list-item-button">ver</button>
+          </div>
+          <div class="movie-list-item">
+              <img class="movie-list-item-img" src="img/9.jpg" alt="">
+              <span class="movie-list-item-title"></span>
+              <p class="movie-list-item-desc"></p>
+              <button class="movie-list-item-button">ver</button>
+          </div>
+      </div>
+      <i class="fas fa-chevron-right arrow"></i>
+  </div>
+</div>
+
+
+<script src="app.js"></script>
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+<!--Galeria-->
+
+
+
+<main>
+  <div class="gallery-container">
+    <a href="img/aranha.jpg" class="gallery-items">
+    <img src="/img/aranha.jpg" alt="aranha">
+  </a>
+  <a href="img/baine.jpg" class="gallery-items">
+    <img src="/img/baine.jpg" alt="baine">
+  </a>
+  <a href="img/hulk.jpg" class="gallery-items">
+    <img src="/img/hulk.jpg" alt="hulk">
+  </a> 
+  <a href="img/miles.jpg" class="gallery-items">
+    <img src="/img/miles.jpg" alt="miles">
+  </a> 
+  <a href="img/saitama.jpg" class="gallery-items">
+    <img src="/img/saitama.jpg" alt="saitama">
+  </a> 
+  <a href="img/branca.jpg" class="gallery-items">
+    <img src="/img/branca.jpg" alt="branca">
+  </a> 
+  <a href="img/simbionte.jpg" class="gallery-items">
+    <img src="/img/simbionte.jpg" alt="simbionte">
+  </a> 
+  <a href="img/thaninhos.jpg" class="gallery-items">
+    <img src="/img/thaninhos.jpg" alt="thaninhos">
+  </a> 
+  <a href="img/thor.jpg" class="gallery-items">
+    <img src="/img/thor.jpg" alt="thor">
+  </a>
+  <a href="img/capitao.jpg" class="gallery-items">
+    <img src="/img/capitao.jpg" alt="capitao">
+  </a>
+  <a href="img/formiga.jpg" class="gallery-items">
+    <img src="/img/formiga.jpg" alt="formiga">
+  </a>
+  <a href="img/star.jpg" class="gallery-items">
+    <img src="/img/star.jpg" alt="star">
+  </a>
+
+
+  </div>
+</main>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+<!--Formulario-->
+
+ 
+<div class="wrapper">
+  <div class="title">
+    <h1>Formulário de Contato</h1>
+  </div>
+  <div class="contact-form">
+    <div class="input-fields">
+      <input type="text" class="input" placeholder="Nome">
+      <input type="text" class="input" placeholder="Email">
+      <input type="text" class="input" placeholder="Telefone">
+      <input type="text" class="input" placeholder="Assunto">
+    </div>
+    <div class="msg">
+      <textarea placeholder="Mensagem"></textarea>
+      <div class="button">Enviar</div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Rodapé-->
+
+<footer>
+  <div class="boxs">
+        <h2>Inicío</h2>
+        <ul style="margin-left: -30px;">  
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Produtos</a></li>
+          <li><a href="#">Downloads</a></li>
+        </ul>
+  </div>
+     <div class="boxs">
+           <h2>Informações</h2> 
+           <ul style="margin-left: -30px;">
+             <li><a href="#">Blog</a></li>
+             <li><a href="#">Contato</a></li>
+             <li><a href="#">Email</a></li>
+           </ul> 
+          </div>
+
+     <div class="boxs">
+            <h2>Suporte</h2>
+            <ul style="margin-left: -30px;">
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Telefone</a></li>
+              <li><a href="#">Chat</a></li>
+            </ul>
+          </div>           
+          <div class="boxs">
+          <h2>Sobre nós</h2>
+          <p>
+            De que são feitos os dias?
+            - De pequenos desejos,
+            vagarosas saudades,
+            silenciosas lembranças.
+            
+            Entre mágoas sombrias,
+            momentâneos lampejos:
+            vagas felicidades,
+            inatuais esperanças.
+          </p>
+        </div>           
+          </footer>
+     
+          
+      <div class="footer">
+        <h2>Logo</h2>
+          <div class="sociais">
+            <div class="social">
+               <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+
+            </div>
+            <div class="social">
+               <a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+
+            </div>
+            <div class="social">
+               <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+
+            </div>
+          
+          
+
+        </div>
+
+
+
+      </div>
+     
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
